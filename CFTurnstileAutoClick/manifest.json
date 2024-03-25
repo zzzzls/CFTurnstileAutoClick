@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "CFTurnstileAutoClick",
+	"description": "自动点击 CloudFlare Turnstile 交互式验证码",
+	"version": "1.0",
+	"permissions": ["debugger", "tabs", "webRequest", "scripting"],
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"background": {
+	  "service_worker": "service-worker.js"
+	}
+  }
